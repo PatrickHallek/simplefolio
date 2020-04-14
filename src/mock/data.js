@@ -32,8 +32,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'water-monitor.png',
     title: 'watered',
-    info: '',
-    info2: '',
+    info: `watered is a mobile smart home app for monitoring the
+          waterlevel of your house plants.`,
+    info2: `For this project i developed and programmed  water sensors and an iot edge device. You can read more on the landingpage.`,
     live: 'Visit Landingpage',
     url: 'https://watered.webflow.io/',
     repo: 'https://github.com/PatrickHallek/Water-Monitor', // if no repo, the button will not show up
@@ -42,8 +43,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'forki.png',
     title: 'Forki',
-    info: '',
-    info2: '',
+    info: `In this project I built an IoT platform to control and manage autonomous moving logistics robots. For
+            this I developed an omnidirectional driving PoC, which is monitored as a node with the platform.`,
+    info2: `I also wrote two medium article about the technologies. Check out the landingpage if you want to read more about it.`,
     live: 'Visit Landingpage',
     url: 'http://www.intrabotics.de/',
     repo: 'https://github.com/newforestberlin/Forki', // if no repo, the button will not show up
@@ -52,7 +54,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'projects.png',
     title: 'More Projects',
-    info: '',
+    info: `The best way for me to understand and learn the latest technologies is to realize projects with them.
+            That's why I have a large number of implemented projects in my repository. 
+            Such as an earthquake dashboard, a gif calendar platform, a blockchain simulation or embedded codes for Arduino and Raspberry Pi`,
     info2: '',
     url: 'https://github.com/PatrickHallek/',
     live: 'Repository',
