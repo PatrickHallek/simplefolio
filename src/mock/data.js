@@ -22,7 +22,7 @@ export const aboutData = {
                   Through my studies of mechanical engineering I discovered my passion for software development.`,
   paragraphTwo: `Today I combine engineering and software development to build holistic technology and data driven full stack solutions.
                   I work agile in small to medium-sized teams with customers.`,
-  paragraphThree: `I am enthusiastic about topics such as IoT, robotics, autonomous driving, embedded software, 3D printing and blockchain technology.`,
+  paragraphThree: `My experience and passion has been gained especially in projects related to IoT, Industy 4.0, logistics processes and autonomous driving.`,
   resume: '', // if no resume, the button will not show up
 };
 
