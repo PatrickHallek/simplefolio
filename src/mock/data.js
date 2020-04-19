@@ -56,7 +56,7 @@ export const projectsData = [
     title: 'More Projects',
     info: `The best way for me to understand and learn the latest technologies is to realize projects with them.
             That's why I have a large number of implemented projects in my repository. 
-            Such as an earthquake dashboard, a gif calendar platform, a blockchain simulation or embedded codes for Arduino and Raspberry Pi`,
+            Such as an earthquake dashboard, a gif calendar platform, a blockchain simulation or embedded codes for Arduino and Raspberry Pi.`,
     info2: '',
     url: 'https://github.com/PatrickHallek/',
     live: 'Repository',
