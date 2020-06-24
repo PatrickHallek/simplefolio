@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I am a generalist and problem solver. 
+  paragraphOne: `I am a generalist and problem solver.
                   Through my studies of mechanical engineering I discovered my passion for software development.`,
   paragraphTwo: `Today I combine engineering and software development to build holistic technology and data driven full stack solutions.
                   I work agile in small to medium-sized teams with customers.`,
@@ -30,14 +30,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'water-monitor.png',
-    title: 'watered',
-    info: `watered is a mobile smart home app for monitoring the
-          waterlevel of your house plants.`,
-    info2: `For this project i developed and programmed  water sensors and an iot edge device. You can read more on the landingpage.`,
-    live: 'Visit Landingpage',
-    url: 'https://watered.webflow.io/',
-    repo: 'https://github.com/PatrickHallek/Water-Monitor', // if no repo, the button will not show up
+    img: 'irrigation.png',
+    title: 'Automated Irrigation',
+    info: `This is an open source software and hardware system to water plants automatically.
+            The app is not only there to look good and for the love of data. Above all,
+            it is a tool to tailor the sensors to the exact needs of the plants. This is where most irrigation systems with direct soil
+            moisture measurement fail because every soil and plant is different and therefore manual calibration is essential.`,
+    live: 'Medium Article',
+    url: 'https://blog.usejournal.com/automated-smart-home-irrigation-system-9061c391f8e2',
+    repo: 'https://github.com/PatrickHallek/automated-irrigation-system', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -52,10 +53,21 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'water-monitor.png',
+    title: 'watered',
+    info: `watered is a mobile smart home app for monitoring the
+          waterlevel of your house plants.`,
+    info2: `For this project i developed and programmed  water sensors and an iot edge device. You can read more on the landingpage.`,
+    live: 'Visit Landingpage',
+    url: 'https://watered.webflow.io/',
+    repo: 'https://github.com/PatrickHallek/Water-Monitor', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'projects.png',
     title: 'More Projects',
     info: `The best way for me to understand and learn the latest technologies is to realize projects with them.
-            That's why I have a large number of implemented projects in my repository. 
+            That's why I have a large number of implemented projects in my repository.
             Such as an earthquake dashboard, a gif calendar platform, a blockchain simulation or embedded codes for Arduino and Raspberry Pi.`,
     info2: '',
     url: 'https://github.com/PatrickHallek/',
