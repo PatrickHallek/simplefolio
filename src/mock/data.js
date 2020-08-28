@@ -48,7 +48,7 @@ export const projectsData = [
             this I developed an omnidirectional driving PoC, which is monitored as a node with the platform.`,
     info2: `I also wrote two medium article about the technologies. Check out the landingpage if you want to read more about it.`,
     live: 'Visit Landingpage',
-    url: 'http://www.intrabotics.de/',
+    url: 'https://newforestberlin.github.io/Intrabotics-Website/',
     repo: 'https://github.com/newforestberlin/Forki', // if no repo, the button will not show up
   },
   {
